@@ -25,34 +25,8 @@ Colander uses Android's Accessibility Service to detect specific Instagram UI el
 
 When these elements are detected, the app displays strategic white overlays to block distracting content while keeping navigation and essential features accessible.
 
-## 📱 Screenshots
-
-```
-┌─────────────────┐
-│ ● ●● ●   ●     │  Pattern grid
-│   ●     ●      │
-│     ●          │
-│●●       ●      │
-│  ●●●           │
-├─────────────────┤
-│    colander     │  App title
-├─────────────────┤
-│ Instagram       │
-│ Dimensions      │
-│ Stories     400 │
-│ Search Page 150 │
-│ Navtab      100 │
-├─────────────────┤
-│ [Start] [Stop]  │  Service controls
-│           Settings>│
-└─────────────────┘
-```
-
 ## 🛠️ Installation
 
-### Prerequisites
-- Android 7.0 (API level 24) or higher
-- Instagram app installed
 
 ### From Source
 1. Clone this repository:
@@ -83,12 +57,6 @@ The app will guide you through granting these permissions:
 4. **Customize settings** using the "Settings>" button to adjust overlay margins
 5. **Normal usage** - Direct messages and typing in search work normally
 
-### Configuration
-
-Access settings to customize overlay margins:
-- **Feed Top**: Top margin for feed blocking (default: 100px)
-- **Search Top**: Top margin for search blocking (default: 150px)  
-- **Bottom**: Bottom margin for all blocking (default: 100px)
 
 ## 🏗️ Architecture
 
@@ -157,24 +125,6 @@ Contributions are welcome! Here's how you can help:
 - Update documentation for API changes
 - Test on multiple Android versions
 
-## 🐛 Troubleshooting
-
-### Common Issues
-
-**Overlays not appearing:**
-- Verify overlay permission is granted
-- Check that accessibility service is enabled
-- Ensure Instagram is the target package
-
-**Service stops working:**
-- Re-enable accessibility service
-- Check battery optimization settings
-- Verify the service is running in Settings > Apps
-
-**Detection not working:**
-- Update Instagram to latest version
-- Clear Instagram cache
-- Restart both apps
 
 ## 📄 License
 
@@ -184,13 +134,5 @@ This project is licensed under the GNU General Public License v3.0 - see the [LI
 
 - Inspired by the need for mindful social media usage
 - Built with Android's Accessibility Services framework
-- UI design inspired by terminal/CLI aesthetics
-
-## 📞 Support
-
-- **Issues**: [GitHub Issues](https://github.com/yourusername/colander/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/yourusername/colander/discussions)
-
----
 
 **Disclaimer**: This app is not affiliated with Instagram or Meta. It's designed to help users manage their Instagram usage mindfully and works by analyzing publicly available UI elements.
