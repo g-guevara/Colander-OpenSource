@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Instagram Feed Reels Blocker</string>
+    <string name="accessibility_service_description">Este servicio detecta específicamente el botón de Reels (clips_tab), cuando estás en el feed (feed_tab) y en búsqueda (search_tab) de Instagram para mostrar overlays de bloqueo. Detecta campos de texto activos en búsqueda para permitir escritura libre cuando el teclado está abierto. Busca elementos por sus IDs específicos: clips_tab para Reels, feed_tab para el feed y search_tab para búsqueda. Muestra overlays rojos de pantalla completa con márgenes configurables según la sección activa. No recopila información personal ni interfiere con otras aplicaciones.</string>
+    <string name="permission_overlay_title">Permiso de Overlay</string>
+    <string name="permission_overlay_message">Esta aplicación necesita permiso para mostrar overlays de pantalla completa sobre Instagram.</string>
+    <string name="permission_usage_title">Permiso de Estadísticas</string>
+    <string name="permission_usage_message">Esta aplicación necesita acceso a las estadísticas de uso para detectar cuando Instagram está abierto.</string>
+    <string name="permission_accessibility_title">Permiso de Accesibilidad</string>
+    <string name="permission_accessibility_message">Esta aplicación necesita permiso de accesibilidad para detectar elementos específicos de Instagram como clips_tab (Reels), feed_tab (Feed), search_tab (Búsqueda) y campos de texto activos.</string>
+    <string name="detection_active">Bloqueador de Instagram activado</string>
+    <string name="detection_inactive">Bloqueador de Instagram desactivado</string>
+    <string name="feed_tab_blocked">Feed tab detectado - Overlay de pantalla completa activo</string>
+    <string name="search_tab_blocked">Search tab detectado - Overlay de pantalla completa activo</string>
+    <string name="search_tab_keyboard_active">Search tab con teclado activo - Bloqueo deshabilitado</string>
+    <string name="clips_tab_blocked">Clips tab detectado - Botón de Reels bloqueado</string>
+    <string name="instagram_detected">Instagram detectado</string>
+    <string name="instagram_closed">Instagram cerrado</string>
+    <string name="clips_tab_found">clips_tab encontrado</string>
+    <string name="feed_tab_found">feed_tab encontrado</string>
+    <string name="search_tab_found">search_tab encontrado</string>
+    <string name="keyboard_detected_in_search">Teclado detectado en búsqueda</string>
+    <string name="overlay_fullscreen_shown">Overlay de pantalla completa mostrado</string>
+    <string name="overlay_reels_shown">Overlay mostrado sobre Reels</string>
+    <string name="overlay_margins_configured">Márgenes del overlay configurados</string>
+    <string name="fullscreen_overlay_active">Overlay de pantalla completa con márgenes personalizados</string>
+    <string name="search_keyboard_free_mode">Modo libre de búsqueda - teclado activo</string>
+</resources>
