@@ -36,8 +36,10 @@ When these elements are detected, the app displays strategic white overlays to b
    ```
 2. Open in Android Studio
 3. Build:
-   - in the menu optoins, select build. generate signed APK. Choose your own password
-(!) the simulator doesnt work with this app, you must try the app on a real device
+   -  (!) the simulator doesnt work with this app, you must try the apk on a real device
+   -  In the menu optoins, select build-> generate signed APK.
+   -  Choose your own password
+     
 
 ### Required Permissions
 The app will guide you through granting these permissions:
