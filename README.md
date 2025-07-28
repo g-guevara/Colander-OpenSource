@@ -20,10 +20,7 @@ When these elements are detected, the app displays strategic white overlays to b
 Contributions are welcome! 
 Here are the things that you can colaborate:
 
-- **Context-Aware Detection Consistency**: Automatically detects which Instagram section you're in (Feed, Search, Reels, Direct Messages), but when you stay still for a while without touching the screen, the overlay disapears.
 - **Devices**: currently is only working on a Xiaomi redmi note 10 pro, it has never been tested on any other device
-- **Reels after DM**: When a friend send you a reel, you can see it, but also you can keep scrolling tru the recomendations of reels to send back to your friend. there's a "pill" to return to the chat, that's the only indicator to know if you´re on that type of screen
-- **Close reels Screen**: The app blocks permantly the reels button of the navtab. but not the reels screen itself.
 - **Better UI**: if you want to contribuite to the ui of the app or the logo, is very welcome. 
 - **Other Apps** : we want to expand this solution to other platafroms like youtube, tiktok, facebook, x and linkedin.
   
